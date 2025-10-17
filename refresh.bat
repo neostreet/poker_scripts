@@ -31,6 +31,7 @@ call copyout 2025_delta6_summaryb
 call streak_it 2025_delta6_summaryb
 call runtot_int_it 2025_delta6_summaryb
 call runtot_int_verbose_it 2025_delta6_summaryb
+call sort_deltas_it 2025_delta6_summaryb
 call sort_deltas_reverse_it 2025_delta6_summaryb
 call sort_deltas_reverse_it 2025_delta6_summaryb.verbose.runtot_int
 mysql_grab delta_by_year
@@ -55,6 +56,8 @@ mysql_grab tournaments_by_year
 mysql_grab mtt_nlhes_by_year
 mysql_grab wagered_by_year
 mysql_grab mtt_nlhe_itm_pct_by_year
+mysql_grab mtt_nlhe_roi
+mysql_grab mtt_nlhe_roi_by_year
 mysql_grab mtt_detail
 mysql_grab mtt_nlhe_detail
 mysql_grab 2025_mtt_nlhe_detail
