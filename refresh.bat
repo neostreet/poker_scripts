@@ -58,6 +58,7 @@ mysql_grab wagered_by_year
 mysql_grab mtt_nlhe_itm_pct_by_year
 mysql_grab mtt_nlhe_roi
 mysql_grab mtt_nlhe_roi_by_year
+mysql_grab 2025_mtt_nlhe_roi
 mysql_grab mtt_detail
 mysql_grab mtt_nlhe_detail
 mysql_grab 2025_mtt_nlhe_detail
