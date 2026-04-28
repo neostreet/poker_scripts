@@ -1,6 +1,23 @@
 @echo off
 call tomysql < poker_sessions_table.sql
-call tomysql < poker_sessions_data.sql%1
+call tomysql < poker_sessions_data_2009.sql
+call tomysql < poker_sessions_data_2010.sql
+call tomysql < poker_sessions_data_2011.sql
+call tomysql < poker_sessions_data_2012.sql
+call tomysql < poker_sessions_data_2013.sql
+call tomysql < poker_sessions_data_2014.sql
+call tomysql < poker_sessions_data_2015.sql
+call tomysql < poker_sessions_data_2016.sql
+call tomysql < poker_sessions_data_2017.sql
+call tomysql < poker_sessions_data_2018.sql
+call tomysql < poker_sessions_data_2019.sql
+call tomysql < poker_sessions_data_2020.sql
+call tomysql < poker_sessions_data_2021.sql
+call tomysql < poker_sessions_data_2022.sql
+call tomysql < poker_sessions_data_2023.sql
+call tomysql < poker_sessions_data_2024.sql
+call tomysql < poker_sessions_data_2025.sql
+call tomysql < poker_sessions_data_2026.sql
 call tomysql < update_poker_style.sql
 rem call tomysql < update_ending_amount.sql
 call tomysql < update_big_blind_amount.sql
@@ -9,7 +26,7 @@ call tomysql < update_tournament_deltas.sql
 call tomysql < update_prize_pool.sql
 call tomysql < update_guaranteed_prize_pool.sql
 call tomysql < update_num_entries_and_places_paid.sql
-call tomysql < update_adjusted_place.sql
+call tomysql < update_place.sql
 call tomysql < poker_styles_table.sql
 call tomysql < poker_styles_data.sql
 call tomysql < poker_flavors_table.sql
